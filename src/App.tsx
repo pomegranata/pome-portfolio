@@ -7,8 +7,11 @@ function App() {
       {/* Hero Section */}
       <header className="min-h-screen flex flex-col items-center justify-center relative bg-[#3674B5]">
         <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl text-white mb-6">
+            Data Engineering, Artificial Intelligence & Machine Learning
+          </h2>
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            Data Engineering, AI & ML
+            Imelda Maretta Putri
           </h1>
           <p className="text-xl md:text-2xl text-gray-100 mb-8">
             Transforming Data into Intelligent Solutions
