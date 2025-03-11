@@ -39,39 +39,39 @@ function App() {
       </header>
 
       {/* Skills Section */}
-      <section className="py-20 bg-[#578FCA]" id="skills">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-16 text-white">Technical Expertise</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="p-6 bg-white/90 backdrop-blur rounded-xl shadow-lg hover:shadow-xl transition">
-              <Database className="w-12 h-12 text-[#578FCA] mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Data Engineering</h3>
-              <p className="text-gray-600">ETL Pipelines, Data Annotation, Data Cleaning, Roboflow, DVC</p>
-            </div>
-            <div className="p-6 bg-white/90 backdrop-blur rounded-xl shadow-lg hover:shadow-xl transition">
-              <Brain className="w-12 h-12 text-[#578FCA] mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Machine Learning</h3>
-              <p className="text-gray-600">Python, TensorFlow, PyTorch, Keras, Scikit-learn</p>
-            </div>
-            <div className="p-6 bg-white/90 backdrop-blur rounded-xl shadow-lg hover:shadow-xl transition">
-              <Server className="w-12 h-12 text-[#578FCA] mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Cloud Computing</h3>
-              <p className="text-gray-600"> Docker, Kubernetes, Hugging Face</p>
-            </div>
-            <div className="p-6 bg-white/90 backdrop-blur rounded-xl shadow-lg hover:shadow-xl transition">
-              <Terminal className="w-12 h-12 text-[#578FCA] mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Programming</h3>
-              <p className="text-gray-600">Python, Java, SQL, Pandas, NumPy</p>
-            </div>
-          </div>
-        </div>
-      </section>
+<section className="py-20 bg-[#578FCA]" id="skills">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-center mb-16 text-white">Technical Expertise</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div className="p-6 bg-white/90 backdrop-blur rounded-xl shadow-lg hover:shadow-xl transition">
+        <Database className="w-12 h-12 text-[#578FCA] mb-4" />
+        <h3 className="text-xl font-semibold mb-2">Data Engineering</h3>
+        <p className="text-gray-600">ETL Pipelines, Data Annotation, Data Cleaning, Roboflow, DVC</p>
+      </div>
+      <div className="p-6 bg-white/90 backdrop-blur rounded-xl shadow-lg hover:shadow-xl transition">
+        <Brain className="w-12 h-12 text-[#578FCA] mb-4" />
+        <h3 className="text-xl font-semibold mb-2">Machine Learning</h3>
+        <p className="text-gray-600">Python, TensorFlow, PyTorch, Keras, Scikit-learn</p>
+      </div>
+      <div className="p-6 bg-white/90 backdrop-blur rounded-xl shadow-lg hover:shadow-xl transition">
+        <Server className="w-12 h-12 text-[#578FCA] mb-4" />
+        <h3 className="text-xl font-semibold mb-2">Cloud Computing</h3>
+        <p className="text-gray-600">Docker, Kubernetes, Hugging Face</p>
+      </div>
+      <div className="p-6 bg-white/90 backdrop-blur rounded-xl shadow-lg hover:shadow-xl transition">
+        <Terminal className="w-12 h-12 text-[#578FCA] mb-4" />
+        <h3 className="text-xl font-semibold mb-2">Programming</h3>
+        <p className="text-gray-600">Python, Java, SQL, Pandas, NumPy</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-      {/* Projects Section */}
+{/* Projects Section */}
 <section className="py-20 bg-[#A1E3F9]" id="projects">
   <div className="container mx-auto px-4">
     <h2 className="text-3xl font-bold text-center mb-16">Featured Projects</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
       {[
         {
           title: "Malishka - GPT2 Conversational AI Chatbot",
