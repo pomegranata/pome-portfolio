@@ -58,7 +58,7 @@ function App() {
       </div>
       <div className="p-6 bg-white/90 backdrop-blur rounded-xl shadow-lg hover:shadow-xl transition">
         <Server className="w-12 h-12 text-[#578FCA] mb-4" />
-        <h3 className="text-xl font-semibold mb-2">Cloud Computing</h3>
+        <h3 className="text-xl font-semibold mb-2">Deployment</h3>
         <p className="text-gray-600">Docker, Kubernetes, Hugging Face</p>
       </div>
       <div className="p-6 bg-white/90 backdrop-blur rounded-xl shadow-lg hover:shadow-xl transition">
